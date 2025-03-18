@@ -8,7 +8,7 @@ class DartFrogUserApiClient {
     // iOSシミュレーター/実機から接続可能なURLを設定
     if (Platform.isIOS) {
       // 実機の場合はコンピュータのIPアドレスを使用
-      _baseUrl = 'http://192.168.179.3:8080'; // あなたのPCのIPアドレスに置き換えてください
+      _baseUrl = 'http://localhost:8080';
     } else {
       // Android エミュレータの場合は 10.0.2.2 を使用
       _baseUrl =
